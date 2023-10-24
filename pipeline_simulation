@@ -1,0 +1,14 @@
+POST _ingest/pipeline/lyrics_parental_filter/_simulate
+{
+  "docs": [
+    {
+    "_source": {
+    "artist": "Taylor Swift",
+    "song": "the 1",
+    "album": "folklore",
+    "year": "2020",
+    "lyrics": "I'm doing good, I'm on some new shit\nBeen saying \"yes\" instead of \"no\"\nI thought I saw you at the bus stop, I didn't though\n\nI hit the ground running each night\nI hit the Sunday matinee\nYou know the greatest films of all time were never made\n\nI guess you never know, never know\nAnd if you wanted me, you really should've showed\nAnd if you never bleed, you're never gonna grow\nAnd it's alright now\n\nBut we were something, don't you think so?\nRoaring twenties, tossing pennies in the pool\nAnd if my wishes came true\nIt would've been you\nIn my defense, I have none\nFor never leaving well enough alone\nBut it would've been fun\nIf you would've been the one\n\nI have this dream you're doing cool shit\nHaving adventures on your own\nYou meet some woman on the Internet and take her home\nWe never painted by the numbers, baby\nBut we were making it count\nYou know the greatest loves of all time are over now\n\nI guess you never know, never know\nAnd it's another day, waking up alone\n\nBut we were something, don't you think so?\nRoaring twenties, tossing pennies in the pool\nAnd if my wishes came true\nIt would've been you\nIn my defense, I have none\nFor never leaving well enough alone\nBut it would've been fun\nIf you would've been the one\n\nHey, yeah-yeah\nI persist and resist the temptation to ask you\nIf one thing had been different\nWould everything be different today?\n\nWe were something, don't you think so?\nRosé flowing with your chosen family\nAnd it would've been sweet\nIf it could've been me\nIn my defense, I have none\nFor digging up the grave another time\nBut it would've been fun\nIf you would've been the one"
+  }
+    }
+    ]
+}

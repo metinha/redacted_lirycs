@@ -1,0 +1,16 @@
+PUT _ingest/pipeline/lyrics_parental_filter
+{
+  "description": "Excludes bad words from this narrative",
+  "processors": [
+    {
+        "redact": {
+          "field": "lyrics.mild",
+          "patterns": ["(?<stuff>shit)","(?<witch>bitch)","(?<yikes>fuck)"],
+          "suffix":"",
+          "prefix":""
+        }
+    }
+
+    
+  ]
+}

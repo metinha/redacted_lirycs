@@ -1,0 +1,18 @@
+PUT _index_template/songs
+{
+  "template": {
+    "settings": {
+      "index": {
+        "number_of_replicas": "0",
+        "default_pipeline": "lyrics_parental_filter"
+      }
+    },
+    "mappings": {
+      "dynamic_templates": []
+    }
+  },
+  "index_patterns": [
+    "songs"
+  ],
+  "composed_of": []
+}
